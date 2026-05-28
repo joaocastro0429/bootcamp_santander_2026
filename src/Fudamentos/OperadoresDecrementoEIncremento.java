@@ -1,4 +1,4 @@
-package fudamentos;
+package Fudamentos;
 
 public class OperadoresDecrementoEIncremento {
     public static void main(String[] args) {

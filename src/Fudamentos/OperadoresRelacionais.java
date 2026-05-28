@@ -1,4 +1,4 @@
-package fudamentos;
+package Fudamentos;
 
 public class OperadoresRelacionais {
     public static void main(String[] args) {
