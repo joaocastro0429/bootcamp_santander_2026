@@ -1,6 +1,4 @@
-package Exercicios;
-
-import java.util.Scanner;
+package Fudamentos.Exercicios;
 
 import java.util.Scanner;
 
