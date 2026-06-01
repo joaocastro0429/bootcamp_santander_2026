@@ -2,14 +2,9 @@ package OrientacaoAObjeto;
 
 public class Main {
     public static void main(String[] args) {
-        Cachorro meuCachorro = new Cachorro("Rex", "Labrador",3,false);
-        CachorroRecord meuCachorro2 =
-                new CachorroRecord("viralata1", "viralata", 3);
+        Cachorro meuCachorro = new Cachorro("pingo","viralata",2);
+        meuCachorro.dormindo();
+        meuCachorro.latir();
 
-        System.out.println(meuCachorro2.nome());
-        System.out.println(meuCachorro2.descricaoCompleta());
-        meuCachorro.acordar();
-        meuCachorro.fazerAniversario();
-        System.out.println("O Cachorro foi adicionado com sucesso!");
     }
 }
