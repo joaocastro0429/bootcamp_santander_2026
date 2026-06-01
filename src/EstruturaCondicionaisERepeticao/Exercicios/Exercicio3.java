@@ -43,7 +43,7 @@ public class Exercicio3 {
                     break;
 
                 default:
-                    System.out.println("Opcao invalida");
+                        System.out.println("Opcao invalida");
                     return;
             }
         }
