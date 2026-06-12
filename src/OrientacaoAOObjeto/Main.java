@@ -21,5 +21,30 @@ public class Main {
         animal.emitirSom();
 
         pessoa.apresentar();
+
+        System.out.println();
+        System.out.println("Exemplo de polimorfismo:");
+        Animal2[] animais = {
+            new Cachorro2("Bolt"),
+            new Gato2("Mia")
+        };
+
+        for (Animal2 item : animais) {
+            item.fazerSom();
+            item.dormir();
+        }
+
+        System.out.println();
+        System.out.println("Segundo exemplo de polimorfismo: pagamentos");
+        FormaPagamento[] pagamentos = {
+            new Pix(150.0),
+            new CartaoCredito(250.0),
+            new Boleto(99.9)
+        };
+
+        for (FormaPagamento pagamento : pagamentos) {
+            pagamento.processarPagamento();
+            pagamento.confirmar();
+        }
     }
 }
